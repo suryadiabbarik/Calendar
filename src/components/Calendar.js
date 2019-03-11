@@ -23,17 +23,6 @@ export default class CalendarClass extends React.Component {
     }
   }
 
-  // showDevJSON = () => {
-  //   if (process.env.NODE_ENV === 'development') {
-  //     return (
-  //       <pre style={{ textAlign: 'left' }}>
-  //         {JSON.stringify(this.props.monthData, null, 2)}
-  //       </pre>
-  //     )
-  //   }
-  //   return null;
-  // }
-
   render() {
     return (
       <main className="container">
